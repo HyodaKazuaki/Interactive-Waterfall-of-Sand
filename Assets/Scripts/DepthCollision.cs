@@ -1,14 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DepthCollision : MonoBehaviour {
+
+    // background image display instance
+    public Image backgroundImage;
 
     // the KinectManager instance
     private KinectManager manager;
 
     // the foreground texture
-    private Texture2D foregroundTex;
+    //private Texture2D foregroundTex;
 
     // rectangle taken by the foreground texture (in pixels)
     private Rect foregroundRect;
@@ -57,7 +61,14 @@ public class DepthCollision : MonoBehaviour {
         // get the users texture
         if (manager && manager.IsInitialized())
         {
-            foregroundTex = manager.GetUsersLblTex();
+            //foregroundTex = manager.GetUsersLblTex();
+
+            if (backgroundImage && (backgroundImage.sprite == null))
+            {
+                //backgroundImage.texture = manager.GetUsersClrTex();
+                backgroundImage.sprite = Sprite.Create(manager.GetUsersClrTex(), new Rect(0, 0, manager.GetUsersClrTex().width, manager.GetUsersClrTex().height), Vector2.zero);
+                backgroundImage.rectTransform.sizeDelta = new Vector2(manager.GetUsersClrTex().width, manager.GetUsersClrTex().height);
+            }
         }
 
         if (manager.IsUserDetected())
@@ -95,11 +106,11 @@ public class DepthCollision : MonoBehaviour {
         }
     }
 
-    void OnGUI()
+    /*void OnGUI()
     {
         if (foregroundTex)
         {
             GUI.DrawTexture(foregroundRect, foregroundTex);
         }
-    }
+    }*/
 }
