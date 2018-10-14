@@ -1,8 +1,11 @@
 # Interactive-Waterfall-of-Sand
 砂の滝を作る もしかしたらただの滝かもしれない というか今はただの滝もどき
 
+## Japanese
+Please see README.ja.md
+
 ## What is this
-インタラクティブアートとして、Kinect v1を使い映像内の水を動かすことができます。  
+You can touch water in image using Kinect v1, as interactive art.
 
 ## Requirements
 ## Hardware
