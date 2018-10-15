@@ -22,6 +22,10 @@ You can touch water in image using Kinect v1, as interactive art.
 3. Start ``Interactive Waterfall.exe`` and select settings what you like.
 4. Enjoy
 
+## Frame rate displaying
+If you want to check frame rate on this software, press ``Space`` key.
+Frame rate is displayed only while press ``Space`` key.
+
 ## How to Close (**Important**)
 You can press ``Alt + F4`` keys to close this software.
 
