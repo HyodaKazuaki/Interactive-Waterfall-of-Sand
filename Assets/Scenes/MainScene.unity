@@ -428,7 +428,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_updateInterval: 0.5
-  isDisplay: 0
 --- !u!1 &1247853291
 GameObject:
   m_ObjectHideFlags: 0
