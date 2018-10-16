@@ -230,7 +230,7 @@ MonoBehaviour:
   prefabFlexSourceActor: {fileID: 1585492102617398, guid: 2bf78e89c8a337b4cb83a21e59048d41,
     type: 2}
   distance: 0.5
-  startPosition: {x: -12, y: 9.45, z: 8}
+  startPosition: {x: -12, y: 9.45, z: 5}
   count: 50
 --- !u!4 &470766213
 Transform:
