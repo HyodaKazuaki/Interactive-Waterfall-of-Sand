@@ -46,8 +46,10 @@ public class DepthCollision : MonoBehaviour {
             jointColliders[i] = new GameObject(sColObjectName);
             jointColliders[i].transform.parent = transform;
 
-            SphereCollider collider = jointColliders[i].AddComponent<SphereCollider>();
-            collider.radius = 1f;
+            CapsuleCollider collider = jointColliders[i].AddComponent<CapsuleCollider>();
+            collider.radius = 1.2f;
+            collider.direction = 2; // direction to z axis
+            collider.height = 10f;
         }
     }
 	
@@ -105,12 +107,4 @@ public class DepthCollision : MonoBehaviour {
             }
         }
     }
-
-    /*void OnGUI()
-    {
-        if (foregroundTex)
-        {
-            GUI.DrawTexture(foregroundRect, foregroundTex);
-        }
-    }*/
 }
