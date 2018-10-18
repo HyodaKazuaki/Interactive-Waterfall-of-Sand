@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -194,7 +194,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 180515738}
   m_LocalRotation: {x: -0.05285874, y: 0, z: 0, w: 0.99860203}
-  m_LocalPosition: {x: 0, y: -3.26, z: 2.54}
+  m_LocalPosition: {x: 0, y: -4.91, z: 2.54}
   m_LocalScale: {x: 3, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -230,7 +230,7 @@ MonoBehaviour:
   prefabFlexSourceActor: {fileID: 1585492102617398, guid: 2bf78e89c8a337b4cb83a21e59048d41,
     type: 2}
   distance: 0.5
-  startPosition: {x: -12, y: 9.45, z: 5}
+  startPosition: {x: -12, y: 9.45, z: 3.23}
   count: 50
 --- !u!4 &470766213
 Transform:
