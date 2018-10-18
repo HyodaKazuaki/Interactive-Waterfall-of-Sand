@@ -10,7 +10,7 @@ Please see README.md
 ## 必須項目
 ## ハードウェア
 * Kinect v1
-* PC(64bit版Windows, 4GB以上のメモリ, CUDAまたはDirectX 11に対応するGPU)
+* PC(64bit版Windows, 4GB以上のメモリ, CUDAまたはDirectX 11に対応するGPUでGTX1060以上を推奨)
 * プロジェクター
 
 ## ソフトウェア

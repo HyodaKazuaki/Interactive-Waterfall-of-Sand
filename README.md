@@ -10,7 +10,7 @@ You can touch water in image using Kinect v1, as interactive art.
 ## Requirements
 ## Hardware
 * Kinect v1
-* PC(Windows x64, Over 4GB RAM, GPU supported DirectX 11 or CUDA)
+* PC(Windows x64, Over 4GB RAM, GPU supported DirectX 11 or CUDA, and over GTX1060 are Recommended)
 * Projector
 
 ## Software
