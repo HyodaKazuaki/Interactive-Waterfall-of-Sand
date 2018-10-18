@@ -72,5 +72,5 @@ MonoBehaviour:
   m_drawParticles: 0
   m_recreateActor: 0
   m_asset: {fileID: 11400000, guid: 3ad2c2e30ca712f448cb045a6ec67472, type: 2}
-  m_lifeTime: 3.3
+  m_lifeTime: 2.6
   m_startSpeed: 1
