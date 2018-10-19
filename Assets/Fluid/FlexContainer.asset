@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f2b44126ff4eb34e941cfec7bfae3a0, type: 3}
   m_Name: FlexContainer
   m_EditorClassIdentifier: 
-  m_simpleMode: 1
+  m_simpleMode: 0
   m_simpleMaxParticles: 100000
   m_simpleSubstepCount: 2
   m_simpleIterationCount: 10
